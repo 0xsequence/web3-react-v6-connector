@@ -81,7 +81,7 @@ export class SequenceConnector extends AbstractConnector {
     if (!this.sequenceWallet) {
       const sequence = await import('0xsequence').then(m => m?.sequence)
       const defaultNetwork = this.chainId || 137
-      this.sequenceWallet = new sequence.Wallet(defaultNetwork);
+      this.sequenceWallet = await sequence.initWallet(defaultNetwork);
     }
 
     if (!this.sequenceWallet.isConnected()) {
