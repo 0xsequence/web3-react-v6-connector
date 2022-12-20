@@ -1,9 +1,9 @@
 {
-  "name": "@0xsequence/web3-react-v6",
+  "name": "@0xsequence/web3-react-v6-connector",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
   "keywords": [
     "react",
@@ -39,7 +39,8 @@
     "0xsequence": "^0.43.0",
     "@web3-react/abstract-connector": "^6.0.7",
     "@web3-react/types": "^6.0.7",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "tsdx": "^0.11.0"
   },
   "peerDependencies": {
     "0xsequence": ">=0.43.0",
