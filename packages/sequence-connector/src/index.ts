@@ -14,7 +14,7 @@ function parseChainId(chainId: string | number) {
 
 export interface SequenceConnectorArguments {
   chainId: number
-  appName?: string;
+  appName?: string
 }
 
 export class SequenceConnector extends AbstractConnector {
