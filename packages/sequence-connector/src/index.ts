@@ -3,7 +3,7 @@ import { ConnectorUpdate } from '@web3-react/types'
 
 declare const window: any
 
-const supportedNetworks = [1, 137, 4, 5]
+const supportedNetworks = [1, 137, 80001, 5, 42161, 42170, 10, 56, 97, 43114]
 
 function parseChainId(chainId: string | number) {
   if (typeof chainId === 'number') {
